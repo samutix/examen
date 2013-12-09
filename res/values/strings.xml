@@ -23,12 +23,12 @@
     <string name="profile_button_label">Perfil</string>
     <string name="Lista">Crear Lista de Libros</string>
     <string name="title_activity_app2">APP2Activity</string>
-    <string name="titulolibro">Titulo</string>
+    <string name="tituloLibro">Titulo</string>
     <string name="author">Author</string>
     <string name="isbn">ISBN</string>
     <string name="guardar">Guardar</string>
     <string name="add">Add</string>
     <string name="title_activity_app3">APP3Activity</string>
-    <string name="deletebutton">Delete</string>
+    <string name="deleteButton">Delete</string>
 
 </resources>

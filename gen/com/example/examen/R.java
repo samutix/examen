@@ -68,7 +68,7 @@ public final class R {
         public static final int add=0x7f050014;
         public static final int app_name=0x7f050000;
         public static final int author=0x7f050011;
-        public static final int deletebutton=0x7f050016;
+        public static final int deleteButton=0x7f050016;
         public static final int email_label=0x7f050006;
         public static final int guardar=0x7f050013;
         public static final int isbn=0x7f050012;
@@ -90,7 +90,7 @@ public final class R {
          */
         public static final int title_activity_login=0x7f050002;
         public static final int title_activity_register=0x7f050003;
-        public static final int titulolibro=0x7f050010;
+        public static final int tituloLibro=0x7f050010;
         public static final int welcome_label=0x7f050009;
     }
     public static final class style {

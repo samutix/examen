@@ -16,7 +16,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/titulolibro" />
+        android:hint="@string/tituloLibro" />
     
      <EditText
         android:id="@+id/authorField"
@@ -47,7 +47,7 @@
 	    android:layout_height="wrap_content"
 	    android:layout_marginTop="17dp"
 	    android:onClick="onDeleteButtonClicked"
-	    android:text="@string/deletebutton"
+	    android:text="@string/deleteButton"
 	    android:visibility="invisible" />
 
 </LinearLayout>
