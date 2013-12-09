@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Examen</string>
+    <string name="action_settings">Configuracion</string>
+
+    <!-- TITLE -->
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Registracion</string>
+    <string name="title_activity_application">Home</string>
+
+    <!-- LABELS -->
+    <string name="name_label">Nombre</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Contraseña</string>
+    <string name="password_confirmation_label">Confirme Contraseña</string>
+    <string name="welcome_label">Bienvenido</string>
+
+    <!-- BUTTONS -->
+    <string name="register_button_label">Registro</string>
+    <string name="login_button_label">Login</string>
+    <string name="logout_button_label">Logout</string>
+    <string name="profile_button_label">Perfil</string>
+    <string name="Lista">Crear Lista de Libros</string>
+    <string name="title_activity_app2">APP2Activity</string>
+    <string name="titulolibro">Titulo</string>
+    <string name="author">Author</string>
+    <string name="isbn">ISBN</string>
+    <string name="guardar">Guardar</string>
+    <string name="add">Add</string>
+    <string name="title_activity_app3">APP3Activity</string>
+    <string name="deletebutton">Delete</string>
+
+</resources>

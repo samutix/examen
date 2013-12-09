@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".ApplicationActivity" >
+    
+	<TextView
+	    android:id="@+id/nameTextViewField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+       <Button
+           android:id="@+id/profileButton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignTop="@+id/nameTextViewField"
+           android:layout_marginRight="16dp"
+           android:layout_toLeftOf="@+id/nameTextViewField"
+           android:onClick="onProfileButtonClicked"
+           android:text="@string/profile_button_label" />
+
+       <Button
+           android:id="@+id/logoutButton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignRight="@+id/button1"
+           android:layout_alignTop="@+id/nameTextViewField"
+           android:onClick="onLogoutButtonClicked"
+           android:text="@string/logout_button_label" />
+
+       <Button
+           android:id="@+id/button1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/profileButton"
+           android:layout_below="@+id/profileButton"
+           android:layout_marginLeft="66dp"
+           android:layout_marginTop="48dp"
+           android:onClick="Comprar"
+           android:text="@string/Lista" />
+
+</RelativeLayout>
